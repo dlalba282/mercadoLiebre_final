@@ -235,13 +235,19 @@ main section article i {
         padding: 5px;
     }
 
+    .boton-enviar {
+        transition: background-color 1000ms;
+    }
+
     .boton-enviar:hover{
         background-color: #39b54a;
-        transition: background-color 1000ms;
+        
+    }
+    .iconsFottter i:hover{
+        transition: color 450ms;
     }
     .iconsFottter i:hover{
         color:#666;
-        transition: color 450ms;
     }
 
     footer{

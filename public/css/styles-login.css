@@ -179,6 +179,7 @@ main section article i {
     }
     .boton-enviar{
         justify-self: center;
+         transition: background-color 1000ms;
     }
 
     .form input:invalid{
@@ -201,12 +202,15 @@ main section article i {
 
     .boton-enviar:hover{
         background-color: #39b54a;
-        transition: background-color 1000ms;
+       
+    }
+    .iconsFottter i {
+        transition: color 450ms;
     }
 
     .iconsFottter i:hover{
         color:#666;
-        transition: color 450ms;
+        
     }
 
     footer{

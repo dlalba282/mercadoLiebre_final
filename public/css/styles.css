@@ -182,12 +182,22 @@ main section article i {
 
     main section article:hover i{
         transform: rotate(-0.25turn);
-        transition: transform 450ms;
+    }
+    .boton-enviar {
+        transition: background-color 1000ms;
+    }
+
+    .boton-enviar:hover{
+        background-color: #39b54a;
+        
+    }
+    .iconsFottter i:hover{
+        transition: color 450ms;
     }
     .iconsFottter i:hover{
         color:#666;
-        transition: color 450ms;
     }
+
 
     footer{
         background-color: white;
@@ -203,6 +213,8 @@ main section article i {
     main section article{
         box-shadow: 0 0 10px rgb(100, 100, 100);
         flex: 45%;
+        transition: transform 450ms;
+
         
     }
     nav {
