@@ -191,7 +191,7 @@ main section article i {
         background-color: #39b54a;
         
     }
-    .iconsFottter i:hover{
+    .iconsFottter i{
         transition: color 450ms;
     }
     .iconsFottter i:hover{
