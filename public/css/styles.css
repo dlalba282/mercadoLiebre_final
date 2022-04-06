@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 
 body{
@@ -18,6 +19,7 @@ p{
 }
 div.top-header{
     padding: 5%;
+
 }
 
 header{
@@ -41,7 +43,7 @@ header ul li{
 
 header ul li a{
     text-decoration: none;
-    color: #000;
+    color:#03264C;
 }
 
 header .form .input{
@@ -69,7 +71,7 @@ div.burger-menu{
 }
 
 div.burger-menu i{
-    background-color: #0044AA;
+    background-color: #03264C;
     border-radius: 5px;
     color: #FFF;
     font-size: 20px;
@@ -193,6 +195,7 @@ main section article i {
     }
     .iconsFottter i{
         transition: color 450ms;
+        color: #03264C;
     }
     .iconsFottter i:hover{
         color:#666;

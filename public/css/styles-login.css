@@ -3,6 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+a {
+    color: #03264C;
+    text-decoration: none;
+}
+a:visited{
+    color: #03264C;}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -40,8 +46,7 @@ header ul li{
 }
 
 header ul li a{
-    text-decoration: none;
-    color: #000;
+    color:#03264C;
 }
 
 header .form .input{
@@ -170,11 +175,24 @@ main section article i {
     }
 
     .contenedor-campos{
-        margin: 20px 0
+        margin: 20px 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .contenedor-campos input{
+        min-width: 70%;
+    }
+    .password input{
+        min-width: 70%;
     }
 
     .password{
-        margin: 20px 0
+        margin: 20px 0;
+        width: 100%;
+        display:flex;
+        justify-content: center;
+        
 
     }
     .boton-enviar{
@@ -196,16 +214,18 @@ main section article i {
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    footer section p.coppyright{
-        font-size: 12;
+    .coppyright{
+        font-size: 12px;
+        margin-top:20px ;
     }
 
     .boton-enviar:hover{
-        background-color: #39b54a;
+        background-color: #030353;
        
     }
     .iconsFottter i {
         transition: color 450ms;
+        color: #03264C;
     }
 
     .iconsFottter i:hover{
@@ -216,6 +236,14 @@ main section article i {
     footer{
         background-color: white;
     }
+    main form{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items:center ;
+        
+
+    } 
 
 
 @media screen and (min-width: 361px) and (max-width: 769px){

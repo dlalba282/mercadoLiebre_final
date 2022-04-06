@@ -3,6 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+a {
+    color: #03264C;
+    text-decoration: none;
+}
+a:visited{
+    color: #03264C;}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -41,7 +47,7 @@ header ul li{
 
 header ul li a{
     text-decoration: none;
-    color: #000;
+    color:#03264C;
 }
 
 header .form .input{
@@ -238,13 +244,19 @@ main section article i {
     .boton-enviar {
         transition: background-color 1000ms;
     }
+    .boton-enviar a {
+        text-decoration: none;
+
+    }
 
     .boton-enviar:hover{
-        background-color: #39b54a;
+        background-color: #03264C;
+        
         
     }
     .iconsFottter i{
         transition: color 450ms;
+        color:#03264C;
     }
     .iconsFottter i:hover{
         color:#666;
@@ -294,7 +306,7 @@ footer section div.iconsFottter{
     margin-bottom: 10px;
 }
 footer section p.coppyright{
-    font-size: 12;
+    font-size: 12px;
 }
 
 
